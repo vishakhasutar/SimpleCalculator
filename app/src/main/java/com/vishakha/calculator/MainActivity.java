@@ -8,8 +8,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.hitesh.demo1.R;
-
 public class MainActivity extends AppCompatActivity {
 
     //region viewvariables

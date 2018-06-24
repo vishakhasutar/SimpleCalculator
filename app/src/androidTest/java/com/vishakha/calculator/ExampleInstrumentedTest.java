@@ -1,4 +1,4 @@
-package com.hitesh.demo1;
+package com.vishakha.calculator;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
