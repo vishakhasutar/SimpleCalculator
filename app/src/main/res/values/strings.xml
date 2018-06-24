@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Simple Calculator</string>
+    <string name="num1">Number1</string>
+    <string name="num2">Number2</string>
+    <string name="button">Addition</string>
+    <string name="button2">Substraction</string>
+    <string name="button3">Multiplication</string>
+    <string name="button4">Division</string>
+    <string name="button5">Reset</string>
+    <string name="result">*</string>
+
+</resources>

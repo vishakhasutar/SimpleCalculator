@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vishakha.calculator.MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="20dp"
+       >
+
+        <TextView
+            android:id="@+id/tv_num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/num1"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_num1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the First Number"
+            android:inputType="number"
+            android:textColor="@color/primary_text" />
+
+
+        <TextView
+            android:id="@+id/tv_num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/num2"
+            android:textColor="@color/primary_text" />
+
+
+        <EditText
+            android:id="@+id/et_num2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter the Second Number"
+            android:inputType="number"
+            android:textColor="@color/primary_text" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/result"
+        android:textColor="@color/primary_text"
+        android:textSize="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttonBG"
+        android:text="@string/button"
+        android:textColor="@color/buttonColor"
+        android:layout_weight="0.5"
+        android:layout_margin="2dp"/>
+
+        <Button
+            android:id="@+id/btn_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBG"
+            android:text="@string/button2"
+            android:textColor="@color/buttonColor"
+            android:layout_weight="0.5"
+            android:layout_margin="2dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btn_mul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBG"
+            android:text="@string/button3"
+            android:textColor="@color/buttonColor"
+            android:layout_weight="0.5"
+            android:layout_margin="2dp"/>
+
+        <Button
+            android:id="@+id/btn_div"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBG"
+            android:text="@string/button4"
+            android:textColor="@color/buttonColor"
+            android:layout_weight="0.5"
+            android:layout_margin="2dp"/>
+
+
+
+    </LinearLayout>
+        <Button
+            android:id="@+id/btn_clr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBG"
+            android:text="@string/button5"
+            android:textColor="@color/buttonColor"
+            android:layout_margin="2dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
